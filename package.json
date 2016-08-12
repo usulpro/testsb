@@ -15,7 +15,7 @@
     "test": "npm run lint && npm run testonly",
     "test-watch": "npm run testonly -- --watch --watch-extensions js",
     "storybook": "start-storybook -p 9010",
-    "publish-storybook": "bash .scripts/publish_storybook.sh"
+    "publish-storybook": ".scripts\\publish_storybook.cmd"
   },
   "devDependencies": {
     "react": "^15.0.0",
